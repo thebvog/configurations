@@ -1,11 +1,11 @@
 " Author: Vladislav Belov
-" Last update: 12.08.2014
+" Last update: 28.08.2014
 
 " User interface
 syntax on
 set nocompatible
 set scrolloff=3
-colorscheme darkblue
+colorscheme magic
 set wrap
 set linebreak
 set mouse=a
@@ -75,3 +75,7 @@ noremap <C-Z> u
 inoremap <C-Z> <C-O>u
 noremap <C-Y> <C-R>
 inoremap <C-Y> <C-O><C-R>
+
+" IAbbrev
+iabbrev T TODO:
+
